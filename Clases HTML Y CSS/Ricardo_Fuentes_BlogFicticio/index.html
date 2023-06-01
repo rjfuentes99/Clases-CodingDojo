@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Ficticio</title>
+</head>
+<body>
+    <div>
+        <h1>Arthur Nicolas</h1>
+        <img src="arthur.jpg" alt="" height="300px" width="300px">
+        <a href="https://www.instagram.com/soyarthurnicolas/">Mi instagram</a>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, dignissimos in. Odio fuga id quaerat aspernatur doloribus doloremque, odit iure veritatis voluptates officia soluta unde! Corrupti quibusdam iste facere cumque.</p>
+
+        <ul>
+            <li>Mi nombre es Arthur Nicolas</li>
+            <li>Tengo dos años</li>
+            <li>Soy muy jugueton</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Datos basicos</th>
+                    <th>Apodos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Naci el 06/11/2021</td>
+                    <td>Negro</td>
+                </tr>
+                <tr>
+                    <td>Mestizo</td>
+                    <td>Arturito</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="/accion" method="post">
+            <h2>Antes de irte llena este formulario</h2>
+            <div>
+                <label for="input_texto">Dejame un mensajito</label>
+                <input type="text" id="input_texto" name="input_texto">
+            </div>
+            <div>
+                <label for="animal_preferido">Prefieres a los perros o gatos</label>
+                <select name="animal_preferido" value>
+                    
+                    <option value="0" disabled selected>Selecciona tu mascota favorita</option>
+                    <option value="1">Perros</option>
+                    <option value="2">Gatos</option>
+                </select>
+            </div>
+            <div>
+                <h2>¿Porque tienes mascota?</h2>
+                <input type="checkbox" name="input_razon" id="input_razon">
+                <label for="input_razon">Te gustan los animales</label>
+                <input type="checkbox" name="input_razon" id="input_razon">
+                <label for="input_razon">Te hacen compañia</label>
+                <input type="checkbox" name="input_razon" id="input_razon">
+                <label for="input_razon">Te hacen feliz</label>
+                <input type="checkbox" name="input_razon" id="input_razon">
+                <label for="input_razon">Te gusta dar y recibir amor</label>
+            </div>
+            <div>
+                <h2>¿Quieres hacer una donacion?</h2>
+                <input type="radio" name="input_donacion" id="input_donacion">
+                <label for="input_donacion">Si</label>
+                <input type="radio" name="input_donacion" id="input_donacion">
+                <label for="input_donacion">No</label>
+            </div>
+
+
+
+            <input type="submit" value="Enviar Formulario"name="" id="">
+
+        </form>
+    </div>
+</body>
+</html>

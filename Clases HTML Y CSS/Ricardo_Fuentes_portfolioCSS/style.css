@@ -1,0 +1,138 @@
+
+.container_principal{
+    border: 1px solid black;
+    width: 900px;
+    height: 920px;
+    background: rgb(193,193,193);
+    background: radial-gradient(circle, rgba(193,193,193,1) 0%, rgba(52,9,18,1) 89%);
+    margin: 0 auto;
+}
+.header{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+}
+.header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    width: 50%;
+    display: inline-block;
+}
+.header h2{
+    padding-left: 50px;
+    display: inline-block;
+}
+.contenido_uno{
+    margin: 0 auto;
+    width: 900px;
+    height: 250px;
+    
+}
+.contenido_uno img{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 5px rgb(192, 192, 192) solid;
+    width: 300px;
+    height: 200px;
+}
+.contenido_uno div{
+    margin-top: 10px;
+    vertical-align: top;
+    background-color: whitesmoke;
+    height: 210px;
+    width: 450px;
+    display: inline-block;
+}
+.contenido_uno div p{
+    margin: 5px;
+    width: 450px;
+ }
+ .contenido_uno div a{
+    color: black;
+    margin: 5px;
+    width: 450px;
+ }
+.contenido_uno h3{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    margin: 0;
+    height: 35px;
+    background: rgb(189,190,190);
+    background: linear-gradient(0deg, rgba(189,190,190,1) 40%, rgba(255,255,255,1) 100%);
+}
+
+.contenido_dos{
+    vertical-align: top;
+    margin-left: 40px;
+    width: 800px;
+    height: 500px;
+}
+.contenido_dos div{
+    margin-left: 12px;
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 250px;
+}
+.contenido_dos div .pagina{
+    width: 250px;
+}
+.contenido_dos h3{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    margin: 0;
+    height: 35px;
+    background: rgb(189,190,190);
+    background: linear-gradient(0deg, rgba(189,190,190,1) 40%, rgba(255,255,255,1) 100%);
+}
+.contenido_dos div p{
+    padding: 5px;
+    width: 250px;
+    height: 70px;
+}
+.skills{
+    
+    width: 45px;
+    height: 45px;
+}
+.contenido_dos button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+    color: white;
+    height: 25px;
+    border: none;
+    background-color: rgb(56, 155, 56);
+    border-radius: 5px;
+}
+footer{
+    
+    margin-top: 30px;
+    background-color: white;
+    height: 60px;
+}
+footer p{
+    padding-top: 10px;
+
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+footer ul{
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+footer ul li{
+    padding-top: 5px;
+    text-align: center;
+    display: inline-block;
+}
+footer ul li img{
+    width: 20px;
+    height: 20px;
+}

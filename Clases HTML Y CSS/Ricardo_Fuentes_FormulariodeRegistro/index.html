@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Mi formulario de registro</h1>
+    <form action="/accion" method="post">
+        <div>
+            <label for="input_texto">Nombre</label>
+            <input type="text" id="input_texto" name="input_texto">
+        </div>
+        <div>
+            <label for="input_texto">Apellido</label>
+            <input type="text" id="input_texto" name="input_texto">
+        </div>
+        <div>
+            <label for="input_number">Email</label>
+            <input type="email" id="input_number" name="input_number" min="1" max="5">
+        </div>
+        <div>
+            <label for="input_password">Contraseña</label>
+            <input type="password" id="input_password" name="input_password">
+        </div>
+        <div>
+            <label for="input_password">Confirmar</label>
+            <input type="password" id="input_password" name="input_password">
+        </div>
+        <div>
+            <label for="input_date">Cumpleaños</label>
+            <input type="date" id="input_date" name="input_date">
+        </div>
+        <div>
+            <input type="radio" name="estado_civil"  value="casado" id="estado_casado">
+            <label for="input_casado">Hombre</label><br>
+            <input type="radio" name="estado_civil"  value="soltero" id="estado_soltero">
+            <label for="input_casado">Mujer</label><br>
+            <input type="radio" name="estado_civil"  value="soltero" id="estado_soltero">
+            <label for="input_casado">Otro</label><br>
+        </div>
+
+        <div>
+            <p>Una breve descripcion de ti:</p>
+            
+            <textarea name="input_about" id="input_about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="lenguaje_favorito">Lenguaje favorito</label>
+            <select name="lenguaje_favorito" value>
+                <option value="0" disabled selected>Selecciona tu lenguaje favorito</option>
+                <option value="1">Javascript</option>
+                <option value="2">Java</option>
+                <option value="3">C++</option>
+                <option value="4">Ninguno</option>
+            </select>
+        </div>
+        <input type="submit" value="Enviar"name="" id="">
+
+    </form>
+</body>
+</html>

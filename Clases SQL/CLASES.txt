@@ -1,0 +1,53 @@
+-- Selecciona todas las columnas de la tabla de usuarios
+SELECT * FROM usuarios;
+
+-- Selecciona las columnas de nombre y edad de la tabla de usuarios
+SELECT nombre, edad FROM usuarios;
+
+-- Selecciona las columnas de nombre y edad de la tabla de usuarios DONDE el id = 2
+SELECT nombre, edad FROM usuarios WHERE id = 2;
+
+-- Selecciona las columnas de nombre y edad de la tabla de usuarios DONDE la edad sea mayor a 50
+SELECT nombre, edad FROM usuarios WHERE edad > 50;
+
+-- Selecciona todas las columnas de la tabla de usuarios DONDE el nombre sea "Elena"
+SELECT * FROM usuarios WHERE nombre LIKE "Elena";
+
+-- Selecciona todas las columnas de la tabla usuarios DONDE el nombre comience con "Al"
+SELECT * FROM usuarios WHERE nombre LIKE "Al%";
+
+-- Selecciona todas las columnas de la tabla usuarios DONDE el nombre termina con "o"
+SELECT * FROM usuarios WHERE nombre LIKE "%o";
+
+-- Selecciona todas las columnas de la tabla usuarios DONDE nombre termine con "o" 
+-- y edad sea menor a 30
+SELECT * FROM usuarios WHERE nombre LIKE "%o" AND edad < 30;
+
+-- Selecciona todas las columnas de la tabla usuarios DONDE nombre termine con "o" 
+-- o edad sea menor a 30
+SELECT * FROM usuarios WHERE nombre LIKE "%o" OR edad < 30;
+
+-- Selecciona todas las columnas de la tabla usuarios ordenando por nombre ascendiente (a-z)
+SELECT * FROM usuarios ORDER BY nombre ASC;
+
+-- Selecciona nombre y edad de tabla de usuarios DONDE el nombre termine en "o" ordenado por edad
+SELECT nombre, edad FROM usuarios WHERE nombre LIKE "%o" ORDER BY edad ASC;
+
+SELECT * FROM usuarios WHERE (nombre LIKE "%o" AND edad > 30) OR (nombre LIKE "Al%" AND id < 5);
+
+-- 1:1 -Unimos las tablas de usuarios y direcciones teniendo de la tabla de usuarios direccion_id
+-- igual a de mi tabla de direcciones id
+SELECT * FROM usuarios
+JOIN direcciones ON usuarios.direccion_id = direcciones.id;
+
+-- 1:n -Unimos las tablas de usuarios y pedidos teniendo de la tabla de usuarios el id 
+-- igual a de mi tabla de pedidos el usuario_id
+SELECT total, envio, nombre FROM pedidos
+JOIN usuarios ON pedidos.usuario_id = usuarios.id
+WHERE total > 500
+ORDER BY total ASC;
+
+-- n:n -Unimos las tablas de usuarios, usuarios_has_hobbies y hobbies
+SELECT usuarios.id, nombre, actividad FROM usuarios
+JOIN usuarios_has_hobbies ON usuarios.id = usuarios_has_hobbies.usuario_id
+JOIN hobbies ON usuarios_has_hobbies.hobbie_id = hobbies.id;

@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.container_principal{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #265175;
+    width: 970px;
+    height: 870px;
+}
+
+header{
+    width: 100%;
+    height: 140px;
+
+}
+
+header img{
+    margin: 20px;
+    height: 100px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.container_dinamico{
+    position: relative;
+    left: 280px;
+    top: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.container_dinamico p{
+    color: white;
+    padding: 5px;
+    position: relative;
+    left: 80px;
+}
+
+.container_dinamico a{
+    color: #d3b100;
+}
+
+.container_dinamico strong{
+    color: black;
+}
+
+.container_busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #444444;
+}
+
+.container_busqueda input{
+    text-align: center;
+    border: 1px rgb(173, 173, 173) solid;
+    margin: 10px;
+    width: 150px;
+    height: 35px;
+}
+
+.container_busqueda button{
+    border: 1px rgb(173, 173, 173) solid;
+    color: white;
+    background-color: #265175;
+    border-radius: 6px;
+    width: 40px;
+    height: 30px;
+}
+
+.nav_principal{
+    border-radius: 5px;
+    margin: auto;
+    background-color: #417bab;
+    width: 800px;
+   height: 50px;
+}
+
+.nav_principal a{
+    font-size: 20px;
+    padding-top:15px;
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+}
+main{
+    margin: 0 auto;
+    width: 800px;
+    height: 330px;
+}
+main nav{
+
+    margin-top: 30px;
+    vertical-align: top;
+    list-style-position:inside;
+    display: inline-block;
+    color: #fed242;
+    text-align: center;
+    width: 200px;
+}
+main nav li{
+    list-style:none;
+}
+main nav li a{
+    padding: 4px;
+    display: inline-block;
+    color: white;
+}
+main div{
+    
+    margin-top: 25px;
+    margin-left: 40px;
+    vertical-align: top;
+    text-align: center;
+    width: 500px;
+    display: inline-block;
+}
+main div p{
+    color: white;
+}
+main div h3{
+    font-weight: 150;
+    margin-top: 10px;
+    color: #fed242;
+}
+main div h4{
+    font-weight: 150;
+    margin-top: 10px;
+    color: white;
+}
+section{
+    background-color: white;
+}
+section div{
+
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 480px;
+    height: 250px;
+}
+section div .linea{
+    margin-top: 10px;
+    background-color: #417bab;
+    width: 400px;
+    height: 3px;
+}
+section div h3{
+    padding: 10px;
+}
+section div p{
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+}
+section div ul{
+    margin-left: 100px;
+    color: #417bab;
+    list-style-type: square;
+}
+section div ul li{
+    margin-right: 100px;
+}
+footer{
+    text-align: center;
+}
+footer div{
+    color: white;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 700px;
+}
+footer div a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer div p{
+    margin-top: 10px;
+}

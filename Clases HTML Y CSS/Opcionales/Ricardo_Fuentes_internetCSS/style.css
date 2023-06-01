@@ -1,0 +1,196 @@
+body{
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_principal{
+    margin: auto;
+    width: 970px;
+    height: 900px;
+}
+header{
+    width: 100%;
+    height: 130px;
+}
+header img{
+    z-index: 999;
+    height: 80px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 15px;
+    margin-top: -10px;
+}
+header h1{
+    color: #474747;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
+header strong{
+    color: #316da0;
+}
+header div{
+    position: relative;
+    bottom: 25px;
+    color: white;
+    height: 60px;
+    background-color: #316da0;
+}
+header div h2{
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+main{
+    background-color: #ffffff;
+}
+main aside{
+    
+    vertical-align: top;
+    display: inline-block;
+    width: 220px;
+    height: 700px;
+}
+main aside .division_info{
+    width: 220px;
+    height: 250px;
+}
+main aside .division_info h3 strong{
+    color: red;
+}
+main aside .division_info h4 strong{
+    color: #316da0;
+}
+.division{
+    background-color: grey;
+    width: 220px;
+    height: 1.5px;
+}
+.botones{
+    border: none;
+    font-size: 18px;
+    margin-top: 3px;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 38px;
+}
+.internet1{
+    width: 220px;
+    background-color: #316da0;
+}
+.internet2{
+    width: 220px;
+    background-color: #ed7b0f;
+}
+.ninja{
+    margin-left: 10px;
+    background-color: #36c7dd;
+}
+main aside .division_ninja{
+    background-image: url(img/background.png);
+    width: 220px;
+    height: 330px;
+    
+}
+main aside .division_ninja img{
+    margin-left: 65px;
+    width: 100px;
+    height: 130px;
+}
+main aside .division_ninja h3{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+main section{
+    margin-left: 40px;
+    display: inline-block;
+    height: 700px;
+    width: 650px;
+}
+nav{
+    border-bottom:#474747 solid 2px;
+    width: 100%;
+    height: 80px;
+}
+nav div{
+    vertical-align: top;
+}
+nav .logohome{
+    display: inline-block;
+    width: 80px;
+}
+nav .logohome h3{
+    color: #316da0;
+    display: inline-block;
+}
+nav .logohome img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+nav .contacto{
+    position: relative;
+    left: 360px;
+    display: inline-block;
+}
+nav .contacto img{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+nav .contacto div{
+    display: inline-block;
+}
+nav .contacto div h2{
+
+    color: #00c0df;
+    margin: 0px;
+}
+nav .contacto div p{
+
+    font-size: 10px;
+    margin: 2px;
+}
+article h3{
+    color: #316da0;
+}
+article strong{
+    color: #3aaec0;
+}
+article .containerUno img{
+    margin-left: 200px;
+    width: 300px;
+    height: 100px;
+}
+footer{
+    width: 650px;
+    display: inline-block;
+    border-top: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+}
+footer img{
+    padding: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+}
+footer div{
+    width: 490px;
+    display: inline-block;
+}
+footer div h3{
+    color: #316da0;
+}
+footer div p a{
+    text-decoration: none;
+    color: #00c0df;
+}

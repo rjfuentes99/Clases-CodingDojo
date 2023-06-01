@@ -1,0 +1,20 @@
+USE [esquema_clase]
+
+SELECT * FROM usuarios
+
+-- Muestra todos los datos guardados en la tabla usuarios
+
+INSERT INTO usuarios (id,nombre,edad,direccion_id) VALUES (9,'Ricardo',23,7);
+
+-- Agrega a la tabla usuarios un nuevo conjunto de valores (id 9,nombre Ricardo ,edad 23,direccion_id 7)
+
+SELECT * FROM usuarios WHERE id = 9 or direccion_id = 7;
+
+-- Muestra todos los datos donde la id principal sea 9 y la direccion id sea = 7
+
+UPDATED direction SET 'direccion_id' = '9' WHERE 'id' = '9'
+-- Cambia la direccion_id de 7 a 9
+
+DELETED FROM users WHERE 'id' = '9'
+
+-- Elimina lo que creamos
